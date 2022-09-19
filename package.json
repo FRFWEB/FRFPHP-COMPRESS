@@ -1,0 +1,21 @@
+{
+  "name": "frf-php-compress",
+  "version": "1.0.0",
+  "description": "compress code php",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "win": "electron-packager . FRFPHP-COMPRESS --overwrite --asar=true --platform=win32 --arch=ia32 --icon=public/favicon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName='FPFPHP-COMPRESS'"
+  },
+  "author": "Francisco Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^20.1.4",
+    "electron-packager": "^16.0.0"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "uglify-php": "^1.0.7"
+  }
+}

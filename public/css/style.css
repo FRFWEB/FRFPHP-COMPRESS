@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body {
+  background: #e89821;
+}
+.frf-compress-title h1 {
+  text-align: center;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 45px;
+}
+.frf-compress-title {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.frf-compress-box {
+  height: 100px;
+  width: 80%;
+  background: #fff;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.frf-compress-box input {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  right: 0;
+}
+.frf-compress-button {
+  width: 80%;
+  margin-top: 7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+}
+.frf-compress-upload {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.frf-compress-upload .fa {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+textarea {
+  width: 90%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  resize: none;
+  overflow-y: scroll;
+}
